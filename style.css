@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+   color:white;
+}
+.logo{
+    width:190px;
+    margin-right: auto;
+    cursor: pointer;
+}
+nav{
+    width:100%;
+    height:60px;
+    background-color: black;
+     float:right;
+}
+
+nav ul li{
+     
+    display:inline-block;
+    line-height: 50px;
+    color:white;
+    font-size: 20px;
+}
+ul{
+    color:royalblue;
+}
+nav ul{
+    float:right;
+    margin-right:50px;
+    color:beige;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+     padding:20px;
+}
+nav ul li:hover{
+    background-color:beige;
+}
+.text1{
+    margin: 100px;
+    font-size: 25px;
+    color:black;
+    position: center;
+    margin: 20px;
+  font-weight:bold 600;
+  padding: 100px;
+}
+
+.search
+    {
+        padding: 10px;
+        font-size: 30px;
+        float: left;
+        width: 80%;
+        background-color:black;
+        border-radius: 25px;
+      }
+.submit{
+  float: left;
+  width: 20%;
+  padding: 20px;
+  background: black;
+  color:white   ;
+  font-size: 100px;
+  border: 10px solid black;
+  border-left: none;  
+  cursor: pointer; 
+}
+.dropdown-menu{
+    font-weight: bold 600;
+}
+.carousel .carousel-item {
+    height: 800px;
+  }
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+  }
+
+ 
+  
+  #container-2nd div img {
+    left: 60px;
+    top: -60px;
+  }
+  #container-2nd {
+    background-color: rgb(249, 246, 244);
+  }
+  
+  #row-div div {
+    border: 5px solid #834bd1;
+  }
+  
+  #position {
+    position: relative;
+  }
+  
+  
+  #welcome {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 4;
+  }
+  
+  
+  #welcome h1 {
+    font-size: 80px;
+  }
+  
+  
+  
+  #bg1 {
+  
+    position: absolute;
+    z-index: 3;
+    top: 500px;
+    left: 500px;
+  }
+  
+  #bg2 {
+  
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 600px;
+  }
+  
+  
+ 
+  
+  .card {
+    max-width: 900px;
+    max-height: 700px;
+    padding: 6vh;
+    padding-top: 7px !important;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: block;
+    box-shadow: 0 0 15px #dae0e5;
+  }
+  .team{
+    font-size: 50px;
+  }
+  
+  #welcome {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 4;
+  }
+
+  #bg1 {
+
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    left: 500px;
+  }
+  
+  #bg2 {
+  
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 600px;
+  }

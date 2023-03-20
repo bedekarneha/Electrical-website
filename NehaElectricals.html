@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta
+        name="viewport" content="width=device-width, initial-scale=1,
+        shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+        integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <div id="main">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+   <div class="container-fluid">
+       <img src="logo2.jpg" class="logo">
+ 
+  <ul>
+      <b> 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+           Products
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Fans</a>
+            <a class="dropdown-item" href="#">Cable</a>
+            <a class="dropdown-item" href="#">Wire</a>
+            
+          </div>
+        </li>
+      <li><a href="#">About us</a></li>
+      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"
+                            id="accountDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Account
+                        </a>
+                        <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="javascript:void(0)"
+                                data-toggle="modal" data-target="#login">Login</a>
+                            <a class="dropdown-item" href="javascript:void(0)"
+                                data-toggle="modal" data-target="#signup">Signup</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </li>
+      <li><a href="#">Partners</a></li>
+    </b>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 bg" type="search"
+          placeholder="Search" aria-label="Search">
+      <button class="btn my-2 my-sm-0 bg-info"
+          type="submit">Search</button>
+  </form>
+
+  </div>
+  </nav>
+  <div class="modal fade" id="login" tabindex="-1"
+            role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">LogIn</h5>
+                        <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="" method="post">
+
+                            <div class="mb-3">
+                                Email:<input type="email" class="form-control"
+                                    placeholder="Email" required>
+                            </div>
+
+                            <div class="mb-3">
+                                Password:<input type="password"
+                                    class="form-control" placeholder="Password"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input"
+                                        type="checkbox">
+                                    Remember Me
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-secondary">Sign
+                                In</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save
+                            changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  <div class="modal fade" id="signup" tabindex="-1"
+  role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLongTitle">LogIn</h5>
+              <button type="button" class="close" data-dismiss="modal"
+                  aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <form action="">
+                  <div class="modal-header">
+                      <h5 class="modal-title">Modal Login Form</h5>
+                      <button type="button" class="btn-close"
+                          data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                      <div class="mb-3">
+                          <label for="Username">Username<span
+                                  class="text-danger">*</span></label>
+                          <input type="text" name="username"
+                              class="form-control" id="Username"
+                              placeholder="Enter Username">
+                      </div>
+
+
+                      <div class="mb-3">
+                          <label for="Password">Password<span
+                                  class="text-danger">*</span></label>
+                          <input type="password" name="password"
+                              class="form-control" id="password"
+                              placeholder="Enter Password">
+                      </div>
+
+
+
+                      <div class="mb-3">
+                          <input class="form-check-input"
+                              type="checkbox" value="" id="remember"
+                              required>
+                          <label class="form-check-label"
+                              for="remember">Remember Me</label>
+                          <a href="#" class="float-end">Forgot
+                              Password</a>
+                      </div>
+                  </div>
+
+
+                  <div class="modal-footer pt-4">
+                      <button type="button" class="btn btn-success
+                          mx-auto w-100">Login</button>
+                  </div>
+
+                  <p class="text-center">Not yet account, <a href="#">Signup</a></p>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                  data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save
+                  changes</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="contact" tabindex="-1"
+  role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="contactus">Leave a message
+                  or visit our Socials</h5>
+              <button type="button" class="close" data-dismiss="modal"
+                  aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+
+          <div class="modal-body">
+              <form>
+
+                  <div class="form-group">
+                      <input type="email" name="email"
+                          placeholder="Email Id" class="form-control"
+                          required>
+                  </div>
+                  <div class="form-group">
+                      <textarea placeholder="Your Message"
+                          class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                      <button class="btn btn-primary">Submit</button>
+                  </div>
+
+                  <div>
+                      <!-- Facebook -->
+                      <a class="btn btn-primary btn-floating m-1"
+                          style="background-color: #3b5998" href="#!"
+                          role="button"> <i class="bi bi-facebook"></i></a>
+                      <!-- Twitter -->
+                      <a class="btn btn-primary btn-floating m-1"
+                          style="background-color: #55acee" href="#!"
+                          role="button"><i class="bi bi-twitter"></i></a>
+                      <!-- Google -->
+                      <a class="btn btn-primary btn-floating m-1"
+                          style="background-color: #dd4b39" href="#!"
+                          role="button"><i class="bi bi-google"></i></a>
+                      <!-- Instagram -->
+                      <a class="btn btn-primary btn-floating m-1"
+                          style="background-color: #ac2bac" href="#!"
+                          role="button"><i class="bi bi-instagram"></i></a>
+                      <!-- Linkedin -->
+                      <a class="btn btn-primary btn-floating m-1"
+                          style="background-color: #0082ca" href="#!"
+                          role="button"><i class="bi bi-linkedin"></i></a>
+                      <!-- Github -->
+                      <a class="btn btn-primary btn-floating m-1"
+                          style="background-color: #333333" href="#!"
+                          role="button"><i class="bi bi-github"></i></a>
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                  data-dismiss="modal">Close</button>
+
+          </div>
+      </div>
+  </div>
+</div>
+<!--modalend-->
+<!--carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img class="d-block w-100 h-80" src="11.jpg"
+            alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h2>My Goodness, My appliances</h2>
+        </div>
+    </div>
+
+    <div class="carousel-item ">
+        <img class="d-block w-100 h-80" src="11.jpg"
+            alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h2>Make Life Easy</h2>
+        </div>
+    </div>
+
+    
+    </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container-fluid mt-5" id="container-2nd">
+
+
+  <div id="position" class="container-fluid border border-5"
+      style="height:1000px;
+      background-color: whitesmoke;">
+
+      <div class="container" id="welcome"
+          style="width:40%;height:800px;
+          background-color:black;">
+
+          <span>
+              <center><h1 class="mt-3 " style="color:white;"> Welcome to Neha electricals</h1></center>
+          </span>
+
+          <br><br>
+          <center>
+            <p style="font-size:25px; font-weight:bold; ">
+                <i>Welcome to the world of Legrand, global specialist in electrical and digital building infrastructures. We have made a pre-selection for your
+                </i>
+            </p>
+            <br><br>
+            <p>
+              Polycab is one of India’s leading manufacturers of cables and wires and allied products such as uPVC conduits and lugs and glands. 
+
+              Polycab’s Telecom Division is engaged in building and up-scaling passive networking infrastructure.
+            </p>
+
+            
+            <br>
+
+            <button type="button" class="btn"
+                style="width:200px; height:50px;
+                font-size:20px; background-color:#dd4b39;
+                color:white;" data-toggle="modal"
+                data-target="#plans">
+                Know more
+            </button>
+        </center>
+       
+        <div class="container" id="bg1">
+        
+          <div class="container" id="bg1">
+            <img src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584__340.jpg" class="image-fluid" width="100%" height="100%"
+                alt="">
+        </div>
+
+      
+  </div>
+  </div>
+  </div>
+  <center class="p-5">
+    <h1>About us</h1>
+    <p style="font-size:22px;"> 
+      <br>Today, the name Finolex has become synonymous with Quality and enjoys overwhelming confidence of the customers. 
+      <br>Investors have also fancied its stock in view of its phenomenal progress leading to a manifold increase on investment in stock through the years.
+        <br>
+       
+    </p>
+</center>
+</div>
+<!--cards-->
+ <div class="team"> <center> Our Partners</center> 
+</div>
+<div class="container col-md-offset-6"> 
+  <div class="row row-cols-3 g-3">
+    <div class="col">
+  
+      <div class="card">
+        <img src="polycab.jpg" class="card-img-top"
+          alt="Hollywood Sign on The Hill" />
+        <div class="card-body">
+          <h2 class="card-title"><b> <center> Polycab</center></b></h2>
+          <p class="card-text">
+          <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates rem dolore explicabo facilis sint ea quos consectetur natus quibusdam, quae dicta veritatis, odit cupiditate expedita magnam error a! Placeat, repellat..
+          </h4> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="finolex.png" class="card-img-top"
+          alt="Palm Springs Road" />
+        <div class="card-body">
+          <h2 class="card-title"><b> <center> Finolex</center></b></h2>
+          <p class="card-text">
+          <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates rem dolore explicabo facilis sint ea quos consectetur natus quibusdam, quae dicta veritatis, odit cupiditate expedita magnam error a! Placeat, repellat..
+          </h4> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="havells.png" alt="  Los Angeles Skyscrapers" />
+        <div class="card-body">
+          <h2 class="card-title"><b> <center>Havells</center></b></h2>
+          <p class="card-text">
+          <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates rem dolore explicabo facilis sint ea quos consectetur natus quibusdam, quae dicta veritatis, odit cupiditate expedita magnam error a! Placeat, repellat..
+          </h4> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="anchor.png" class="card-img-top"
+          alt="Skyscrapers" />
+        <div class="card-body">
+          <h2 class="card-title"><b> <center>Anchor</center></b></h2>
+          <p class="card-text">
+          <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates rem dolore explicabo facilis sint ea quos consectetur natus quibusdam, quae dicta veritatis, odit cupiditate expedita magnam error a! Placeat, repellat..
+          </h4> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="phillips.png" class="card-img-top"
+          alt="Skyscrapers" />
+        <div class="card-body">
+          <h2 class="card-title"><b> <center>phillips</center></b></h2>
+          <p class="card-text">
+          <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates rem dolore explicabo facilis sint ea quos consectetur natus quibusdam, quae dicta veritatis, odit cupiditate expedita magnam error a! Placeat, repellat..
+          </h4> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="legred.png" class="card-img-top"
+          alt="Skyscrapers" />
+        <div class="card-body">
+          <h2 class="card-title"><b> <center>phillips</center></b></h2>
+          <p class="card-text">
+          <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates rem dolore explicabo facilis sint ea quos consectetur natus quibusdam, quae dicta veritatis, odit cupiditate expedita magnam error a! Placeat, repellat..
+          </h4> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+<!-- Footer -->
+<footer class="bg-light text-center ">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #3b5998" href="#!"
+              role="button"> <i class="bi bi-facebook"></i></a>
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #55acee" href="#!"
+              role="button"><i class="bi bi-twitter"></i></a>
+          <!-- Google -->
+          <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #dd4b39" href="#!"
+              role="button"><i class="bi bi-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac" href="#!"
+              role="button"><i class="bi bi-instagram"></i></a>
+          <!-- Linkedin -->
+          <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca" href="#!"
+              role="button"><i class="bi bi-linkedin"></i></a>
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333" href="#!"
+              role="button"><i class="bi bi-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+
+
+      <!-- Section: Form -->
+      <section class="">
+          <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                      <p class="pt-2">
+                          <strong>Sign up for 
+                              Updates</strong>
+                      </p>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                      <!-- Email input -->
+                      <div class="form-outline mb-4">
+                          <input type="email" id="form5Example2"
+                              class="form-control" />
+                          <label class="form-label"
+                              for="form5Example2">Email address</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-auto">
+
+                      <!-- Submit button -->
+                      <button type="submit" class="btn
+                          mb-4"
+                          style="background-color:#834bd1;color:white;">
+                          Subscribe
+                      </button>
+                  </div>
+                  <!--Grid column-->
+              </div>
+              <!--Grid row-->
+          </form>
+      </section>
+      <!-- Section: Form -->
+
+
+
+      <!-- Section: Links -->
+
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0,
+      0,
+      0.2)">
+      © 2022 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">NehaElectricals.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+ 
+ 
+ </body>
+
+ </html>
